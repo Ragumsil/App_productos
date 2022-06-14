@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="cicata.ipn.app_productos.InicioFragment"
+        android:label="InicioFragment"
+        tools:layout="@layout/inicio_fragment">
+        <action
+            android:id="@+id/action_inicioFragment_to_altaFragment"
+            app:destination="@id/altaFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_listaFragment"
+            app:destination="@id/listaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/altaFragment"
+        android:name="cicata.ipn.app_productos.AltaFragment"
+        android:label="AltaFragment"
+        tools:layout="@layout/fragment_alta">
+        <action
+            android:id="@+id/action_altaFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaFragment"
+        android:name="cicata.ipn.app_productos.ListaFragment"
+        android:label="ListaFragment"
+        tools:layout="@layout/fragment_lista">
+        <action
+            android:id="@+id/action_listaFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+</navigation>

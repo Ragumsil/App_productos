@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App_productos</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="dar_de_alta_productos">Dar de alta productos</string>
+    <string name="lista_de_productos">Lista de Productos</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="introduzca_el_nombre_del_producto">Introduzca el nombre del producto</string>
+    <string name="talla_del_producto">Talla del Producto</string>
+    <string name="cu_l_es_la_talla_del_producto">¿Cuál es la talla del producto?</string>
+    <string name="color_del_producto">Color del producto</string>
+    <string name="cu_l_es_el_color_del_producto">¿Cuál es el color del producto?</string>
+    <string name="precio">Precio</string>
+    <string name="precio_del_producto">Precio del producto</string>
+    <string name="dar_de_alta">Dar de alta</string>
+    <string name="volver_pantalla_inicio">Volver a la pantalla de inicio</string>
+    <string name="ver_lista">Ver lista</string>
+    <string name="volver_a_inicio">Volver a inicio</string>
+
+</resources>
